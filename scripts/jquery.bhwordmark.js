@@ -6,6 +6,6 @@
 $.fn.bhWordMark = function () {
   return this.each(function () {
     var $current = $(this);
-    $current.html($current.html().replace(/()(hotel)/i, '<span>$2</span>'));
+    $current.html($current.html().replace(/( )(hotel)/i, '<span>$2</span>'));
   });
 }; /* $.fn.bhWordMark */
